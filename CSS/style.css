@@ -13,9 +13,10 @@ html {
   color: #AAAAAA;
 }
 
-.flexbox-1 {
+/* .flexbox-1 {
   display: flex;
-}
+  flex-direction: column;
+} */
 
 .navbar1 {
   display: flex;
@@ -54,14 +55,155 @@ html {
   color: white;
 }
 
-@media screen and (max-width: 660px) {
-  .navbar1 {
-    display: none;
-  }
-}
-
 .navbar2 {
   display: flex;
   width: 100%;
   height: 48px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.nv2-img {
+  display: none;
+}
+
+.nav2-ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav2-ul li {
+  margin-right: 24px;
+}
+
+.nav2-ul a{
+  text-decoration: none;
+  font-family: 'Nova Square', cursive;
+  font-size: 14px;
+}
+
+.nav2-ul a:hover {
+  color: black;
+}
+
+.nav2-div {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-right: 7px;
+  border-left: 1px solid rgb(235,235,235);
+}
+
+.fa-search {
+  font-size: 16px;
+  color: rgb(189, 189, 189);
+  padding: 0 16px;
+}
+
+.fa-search:hover {
+  color: rgb(127,127,127);
+  cursor: pointer;
+}
+
+.nv2-div-tnw {
+  width: 125px;
+  height: auto;
+  overflow: hidden;
+}
+
+.nv2-div-clock {
+  font-family: 'Nova Square', cursive;
+  font-size: 20px;
+  color: red;
+  font-weight: 600;
+}
+
+.nv2-bttn {
+  display: flex;
+  background-color: rgb(0,204,204); 
+  border-radius: 3px;
+  margin-left: 16px;
+}
+
+.nv2-bttn:hover {
+  background-color: rgb(153,0,204);
+  cursor: pointer;
+}
+
+.nv2-bttn span {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 8px 12px;
+  color: white;
+}
+
+.menu-bars {
+  display: none;
+}
+
+.navbar3 {
+  display: flex;
+  height: 29.6px;
+  position: sticky;
+  top: 48px;
+  align-items: center;
+  padding-left: 20px;
+  background-color: rgb(255,221,51);
+  cursor: pointer;
+}
+
+.navbar3  span {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+/*Navigation bars resposniveness*/
+@media screen and (max-width: 1112px) {
+  .nv2-div-tnw, .nv2-div-clock, .nv2-bttn{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .navbar2 {
+    padding-left: 0;
+  }
+  .nv2-img {
+    display: inline-block;
+    width: 114px;
+    height: 100%;
+    background-image: url("../Images/tnw_navbar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .menu-bars {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(235,235,235);
+  }
+
+  .fa-bars {
+    font-size: 16px;
+    color: orange;
+    padding: 0 16px;
+  }
+
+  .nav2-ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .navbar1 {
+    display: none;
+  }
 }
