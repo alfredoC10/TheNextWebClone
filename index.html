@@ -6,11 +6,14 @@
   <title>Document</title>
   <link rel="stylesheet" href="./CSS/reset.css" type="text/css">
   <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+  <link rel="stylesheet" href="./CSS/media.css" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/13a4f3443f.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- <div class="flexbox-1"> -->
+  <div class="corner-tnw-img"></div>
   <div class="navbar1">
     <ul class="nav1-ul">
       <li id="active-link"><a href="">News</a></li>
@@ -28,16 +31,18 @@
     </ul>
   </div>
   <div class="navbar2">
-    <div class="nv2-img"></div>
-    <ul class="nav2-ul">
-      <li><a class="colorAAA" href="">LATEST</a></li>
-      <li><a class="colorAAA" href="">HARD FORK</a></li>
-      <li><a class="colorAAA" href="">PLUGGED</a></li>
-      <li><a class="colorAAA" href="">README</a></li>
-      <li><a class="colorAAA" href="">GROWTH QUARTERS</a></li>
-      <li><a class="colorAAA" href="">SHIFT</a></li>
-      <li><a class="colorAAA" href="">NEURAL</a></li>
-    </ul>
+    <div class="nv2-ul-container">
+      <div class="nv2-img"></div>
+      <ul class="nav2-ul">
+        <li><a class="colorAAA" href="">LATEST</a></li>
+        <li><a class="colorAAA" href="">HARD FORK</a></li>
+        <li><a class="colorAAA" href="">PLUGGED</a></li>
+        <li><a class="colorAAA" href="">README</a></li>
+        <li><a class="colorAAA" href="">GROWTH QUARTERS</a></li>
+        <li><a class="colorAAA" href="">SHIFT</a></li>
+        <li><a class="colorAAA" href="">NEURAL</a></li>
+      </ul>
+    </div>
     <div class="nav2-div">
       <i class="fas fa-search"></i>
       <img class="nv2-div-tnw" src="./Images/event-bl-tnw2020.svg" alt="tnw2020">
@@ -57,16 +62,121 @@
   </div>
 
   <div class="grid-1">
-
+    <div class="grd1-big grd1-bckg-algn">
+      <div class="big-logo-date">
+        <img class="big-tnw" src="./Images/tnw-white.svg" alt="tnw_logo">
+        <span class="big-date">Wednesday — August 26, 2020</span>
+      </div>
+      <div class="to-bottom">
+        <h1 class="big-title">Uber vs Los Angeles: The fight for passenger privacy</h1>
+        <div class="grd1-author">
+          <span>by <a>Cities Today</a></span>
+          <i class="far fa-clock"></i>
+          <span>1 hour ago</span>
+          <i class="fas fa-share-alt"></i>
+          <span>0</span>
+        </div>
+      </div>
+    </div>
+    <div class="grd1-right-top grid1-side grd1-bckg-algn">
+      <h2 class="grd1-side-title to-bottom">
+        Join our 15th annual flagship event for free</h2>
+    </div>
+    <div class="grd1-right-bttm grid1-side grd1-bckg-algn">
+      <div class="to-bottom">
+        <h2 class="site-section">INSIGHTS</h2>
+        <h2 class="grd1-side-title">Notorious movie pirates busted by Europol and Homeland Security</h2>
+        <div class="grd1-author">
+          <span>by <a>Mix</a></span>
+          <i class="far fa-clock"></i>
+          <span>1 hour ago</span>
+          <i class="fas fa-share-alt"></i>
+          <span>0</span> 
+        </div>  
+      </div>
+    </div>
   </div>
 
-  <div class="independant-1">
+  <div class="envelope">   
+
+    <div class="grid-titles-cont">
+      <div class="tnw-titles">
+        <h2>Latest news <i class="fas fa-chevron-right"></i></h2>
+      </div>  
+    </div>
+
+    <div class="grid-2">
+      <div class="grd2-item">
+        <div class="grd2-img im-url1"></div>
+        <div class="grd2-txt-env">  
+          <p class="grd2-txt">For under $50, you can have all the graphics, icons and images you need for life</p>
+          <span class="grd2-author colorAAA">TNW Deals - 50 minutes ago</span>
+        </div>
+      </div>
+      <div class="grd2-item">
+        <div class="grd2-img im-url2"></div>
+        <div class="grd2-txt-env">  
+          <p class="grd2-txt">Browsing your saved spots on Google Maps just got a lot simpler</p>
+          <span class="grd2-author colorAAA">Mix2 - hours ago</span>
+        </div>
+      </div>
+      <div class="grd2-item">
+        <div class="grd2-img im-url3"></div>
+        <div class="grd2-txt-env">  
+          <p class="grd2-txt">Apple loses ground in the wireless bud market — but AirPods are still #1</p>
+          <span class="grd2-author colorAAA">Ivan Mehta - 2 hours ago</span>
+        </div>
+      </div>
+      <div class="grd2-item">
+        <div class="grd2-img im-url4"></div>
+        <div class="grd2-txt-env">  
+          <p class="grd2-txt">Activision bumps base price of PS5 and XSX games to $69.99, starting with Black Ops Cold War</p>
+          <span class="grd2-author colorAAA">Mix - 4 hours ago</span>
+        </div>
+      </div>
+      <div class="grd2-item">
+        <div class="grd2-img im-url5"></div>
+        <div class="grd2-txt-env">  
+          <p class="grd2-txt">Satoshi Nakaboto: ‘Fidelity launches Bitcoin index fund for wealthy investors’</p>
+          <span class="grd2-author colorAAA">Satoshi Nakaboto - 4 hours ago</span>
+        </div>
+      </div>
+      <div class="grd2-item">
+        <div class="grd2-img im-url6"></div>
+        <div class="grd2-txt-env">  
+          <p class="grd2-txt">Astronomers think our Sun may have a long lost twin</p>
+          <span class="grd2-author colorAAA">The Cosmic Companion - 6 hours ago</span>
+        </div>
+      </div>
+      <div class="grd2-item">
+        <div class="grd2-img im-url7"></div>
+        <div class="grd2-txt-env">  
+          <p class="grd2-txt">California bill no longer holds escooter operators liable for user accidents</p>
+          <span class="grd2-author colorAAA">Matthew Beedham - 6 hours ago</span>
+        </div>
+      </div>
+      <div class="grd2-item">
+        <div class="grd2-img im-url8"></div>
+        <div class="grd2-txt-env">  
+          <p class="grd2-txt">Hey employers, forcing your machine learning hires to have fancy degrees is dumb</p>
+          <span class="grd2-author colorAAA">Dale Markowitz - 7 hours ago</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-titles-cont">
+      <div class="tnw-titles">
+        <h2>Latest funding rounds on Index.co  <i class="fas fa-chevron-right"></i></h2>
+      </div>
+      <ul class="funding-info">
+        <li class="info1"><span class="title-option">Add info</span></li>
+        <li class="info2"><span class="title-option-funding" href="#">Get updates by email</span></li>
+        <li class="info3"><span class="title-option" href="#">See more</span></li>
+      </ul>
+    </div>
 
   </div>
-
-  <div class="grid-2">
-
-  </div>
+  
 
   <div class="independant-2">
 
