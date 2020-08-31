@@ -15,7 +15,7 @@
 
 html, body{
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   /* height: 100%; */
 }
 
@@ -435,4 +435,139 @@ html, body{
 
 .title-option:hover {
   color: rgb(0, 0, 0);
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 24px;
+  min-height: 265px;
+  max-height: 309px;
+}
+
+.grd3-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.grd3-item4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.grd3-img {
+  width: 60px;
+  padding-top: 60px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.grd3-url1 {
+  background-image: url(../Images/grd3-img-1.jpg);
+}
+
+.grd3-url2 {
+  background-image: url(../Images/grd3-img-2.png);  
+}
+
+.grd3-url3 {
+  background-image: url(../Images/grd3-img-3.jpg);  
+}
+
+.grd3-url4 {
+  background-image: url(../Images/grd3-img-4.jpg);  
+}
+
+.grd3-company {
+  display: flex;
+  align-items: center;
+  height: 39px;
+  padding: 10.6px 10.6px 10.6px 80px;
+  font-family: 'avalonbold';
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255,68,34);
+}
+
+.grd3-amount {
+  display: flex;
+  flex-direction: column;
+  padding: 10.6px 10.6px 10.6px 80px;
+  font-family: 'avalonbold';
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255,235,232);
+}
+
+.grd3-amount span {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+.grd3-info {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  color: rgb(85, 85, 85);
+  background-color: rgba(255,68,34,.03);
+  border-bottom: 1px solid rgba(255,68,34,.25);
+}
+
+.grd3-info-cont1 {
+  display: flex;
+  margin-bottom: 11px;
+}
+
+.grd3-info-cont2 {
+  display: flex;
+}
+
+.grd3-info i {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.grd3-info span {
+  margin-left: 4px;
+}
+
+.grd3-info span:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+
+.grd3-description {
+  display: flex;
+  height: 100%;
+  padding: 10px 16px 16px;
+  background-color: rgba(255,68,34,.03);
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(85, 85, 85);
+}
+
+.grd3-description em {
+  color: rgb(170, 170, 170);
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
 }

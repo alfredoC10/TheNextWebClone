@@ -80,12 +80,39 @@
 }
 
 @media screen and (max-width: 990px) {
+  .grid-titles-cont {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
+  }
+
+  .funding-info {
+    margin-top: 10px;
+  }
+
+  .title-option {
+    margin-top: 10px;
+  }
+
   .grid-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     column-gap: 20px;
     row-gap: 23px;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .grd3-item4 {
+    display: none;
+  }
+
+  .grd3-company {
+    height: 43px;
   }
 
 }
@@ -198,6 +225,15 @@
 
   .grd2-author {
     font-size: 11px;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr qfr;
+    column-gap: unset;
+    row-gap: 16px;
+    min-height: 686px;
+    max-height: 959px;
   }
 
 }
