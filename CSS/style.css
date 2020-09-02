@@ -307,7 +307,7 @@ html, body{
 .tnw-titles {
   display: inline-flex;
   font-family: 'avalonbold';
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bolder;  
   color: rgb(255,68,34);  
 }
@@ -318,6 +318,7 @@ html, body{
 
 .tnw-titles:hover {
   color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 
 .grid-2 {
@@ -329,7 +330,7 @@ html, body{
   margin-bottom: 70px;
 }
 
-.grd2-item {
+.grd-item {
   display: flex;
   flex-direction: column;
 }
@@ -570,4 +571,112 @@ html, body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
+  column-gap: 24px;
+}
+
+.grd4-img {
+  width: 100%;
+  padding-top: 74.8%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 14px;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.grd4-url1 {
+  background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Images/grd4-img-1.jpg);
+}
+
+.grd4-url2 {
+  background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Images/grd4-img-2.jpg);
+}
+
+.grd4-url3 {
+  background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Images/grd4-img-3.png);
+}
+
+.grd4-url4 {
+  background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Images/grd4-img-4.jpg);
+}
+
+.grd4-url5 {
+  background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Images/grd4-img-5.png);
+}
+
+.grd4-url6 {
+  background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Images/grd4-img-6.jpg);
+}
+
+.grd4-url7 {
+  background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Images/grd4-img-7.jpg);
+}
+
+.grd4-url8 {
+  background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Images/grd4-img-8.png);
+}
+
+.grd4-url9 {
+  background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Images/grd4-img-9.jpg);
+}
+
+.grd4-img-header {
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: rgb(255, 255, 255);
+}
+
+.most-popular {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.grd4-img-title {
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.grd4-img-author {
+  color: hsla(0,0%,100%,.6);
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.grd4-img-author em:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.grd4-latest-container {
+  display: flex;
+  background-color: rgb(254,243,241);
+}
+
+.grd4-latest-header {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 14px;
+  color: rgb(255, 68, 34);
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.grd4-latest-header span {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.grd4-latest-header h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
