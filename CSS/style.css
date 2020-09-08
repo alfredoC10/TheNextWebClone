@@ -659,15 +659,18 @@ html, body{
 .grd4-latest-container {
   display: flex;
   background-color: rgb(254,243,241);
+  justify-content: space-between;
 }
 
 .grd4-latest-header {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
+  height: 96px;
   padding: 10px 14px;
   color: rgb(255, 68, 34);
   font-weight: bolder;
   font-size: 12px;
+  position: relative;
 }
 
 .grd4-latest-header span {
@@ -679,4 +682,49 @@ html, body{
 .grd4-latest-header h3:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.grd4-latest-img {
+  width: 96px;
+  height: 96px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.latest-url1 {
+  background-image: url(../Images/latest-img-1.jpg);
+}
+
+.latest-url2 {
+  background-image: url(../Images/latest-img-2.png);
+}
+
+.latest-url3 {
+  background-image: url(../Images/latest-img-3.jpg);
+}
+
+.latest-url4 {
+  background-image: url(../Images/latest-img-4.gif);
+}
+
+.latest-url5 {
+  background-image: url(../Images/latest-img-5.png);
+}
+
+.latest-url6 {
+  background-image: url(../Images/latest-img-6.jpg);
+}
+
+.latest-url7 {
+  background-image: url(../Images/latest-img-7.jpg);
+}
+
+.latest-url8 {
+  background-image: url(../Images/latest-img-8.png);
+}
+
+.latest-url9 {
+  background-image: url(../Images/latest-img-9.jpg);
 }
