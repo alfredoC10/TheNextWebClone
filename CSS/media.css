@@ -31,20 +31,24 @@
     margin-left: 20px;
   }
 
-  .nv2-div-tnw, .nv2-div-clock, .nv2-bttn{
+  .nv2-div-tnw,
+  .nv2-div-clock,
+  .nv2-bttn {
     display: none;
   }
 
   .navbar3 {
     padding-left: 134px;
   }
- 
+
   .grid-1 {
     height: 366px;
   }
 
   .grd1-big {
-    background: linear-gradient(170deg, transparent, rgba(0, 0, 0, 0.8)), url(../Images/grid1_big_image.jpg);
+    background:
+      linear-gradient(170deg, transparent, rgba(0, 0, 0, 0.8)),
+      url(../Images/grid1_big_image.jpg);
     padding: 14px;
     position: relative;
   }
@@ -64,7 +68,7 @@
     position: absolute;
     bottom: 14px;
   }
-  
+
   .grd1-side-title {
     font-size: 18px;
     line-height: 21px;
@@ -88,13 +92,10 @@
     bottom: 0;
     z-index: 10;
   }
-  
+
   .chair:hover {
     font-size: 20px;
   }
-  
-  
-  
 }
 
 @media screen and (max-width: 990px) {
@@ -143,7 +144,6 @@
     width: 96px;
     padding-top: 96px;
   }
-
 }
 
 @media screen and (max-width: 856px) {
@@ -152,7 +152,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    border-left: 1px solid rgb(235,235,235);
+    border-left: 1px solid rgb(235, 235, 235);
   }
 
   .fa-bars {
@@ -164,7 +164,6 @@
   .nav2-ul {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 790px) {
@@ -206,10 +205,10 @@
     line-height: 20px;
   }
 
-  .grd1-right-top, .grd1-right-bttm {
+  .grd1-right-top,
+  .grd1-right-bttm {
     height: 27.36vh;
   }
-
 }
 
 @media screen and (max-width: 738px) {
@@ -239,7 +238,6 @@
     height: 75px;
     display: block;
     margin-bottom: 0;
-
   }
 
   .grd2-txt-env {
@@ -282,6 +280,4 @@
     margin-bottom: 2px;
     position: relative;
   }
-  
-
 }
