@@ -5,8 +5,6 @@
 
 ![screenshot](https://github.com/Huemac-Alfredo/TheNextWebClone/blob/feature/Images/TNWClone-screenshot.PNG?raw=true)
 
-Additional description about the project and its features.
-
 ## Built With
 
 - HTML & CSS,
