@@ -29,6 +29,12 @@
 - Twitter: [@twitterhandle](https://twitter.com/AlfredoHuemac)
 - Linkedin: [linkedin](https://www.linkedin.com/in/huemac-alfredo-c%C3%B3rdova-torres-b28986136/)
 
+👤 **Rashid Mvk**
+
+- Github: [@githubhandle](https://github.com/rashidmvk)
+- Twitter: [@twitterhandle](www.twitter.com/rashidnm)
+- Linkedin: [linkedin](https://www.linkedin.com/in/rashidmvk/)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
