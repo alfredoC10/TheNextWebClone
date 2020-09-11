@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/rashidmvk/SmashingMagazineClone/feature/index.html)
+[Live Demo Link](https://raw.githack.com/Huemac-Alfredo/TheNextWebClone/tree/feature)
 
 ## Authors
 
