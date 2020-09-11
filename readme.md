@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Huemac-Alfredo/TheNextWebClone/tree/feature)
+[Live Demo Link](https://huemac-alfredo.github.io/TheNextWebClone/)
 
 ## Authors
 
