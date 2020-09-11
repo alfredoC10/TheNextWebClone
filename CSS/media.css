@@ -258,7 +258,7 @@
 
   .grid-3 {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr qfr;
+    grid-template-rows: 1fr 1fr 1fr;
     column-gap: unset;
     row-gap: 16px;
     min-height: 686px;
