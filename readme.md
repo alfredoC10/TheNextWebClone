@@ -3,7 +3,7 @@
 >THIS RESEMBLES THE EXACT CLONE OF THE NEXT WEB WEBSITE WITHOUT USING ANY JAVASCRIPT. THE EXPERIENCE GOT WORKING FOR THIS PROJECT IMPARTS A GREAT LEARNING IN RESPONISIVE DESIGN. THE WAY THEY DESIGNED THE WEBSITE MAKE THEM PULL TOWARDS TJE MASS READING OF THEIR CONTENT. 
 
 
-![screenshot](https://github.com/Huemac-Alfredo/TheNextWebClone/blob/feature/Images/TNWClone-screenshot.PNG?raw=true)
+![screenshot](https://github.com/Huemac-Alfredo/TheNextWebClone/blob/master/Images/TNWClone-screenshot.PNG)
 
 ## Built With
 
