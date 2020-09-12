@@ -18,11 +18,6 @@ body {
   color: #aaa;
 }
 
-/* .flexbox-1 {
-  display: flex;
-  flex-direction: column;
-} */
-
 .corner-tnw-img {
   display: none;
 }
@@ -157,6 +152,7 @@ body {
 
 .navbar3 {
   display: flex;
+  width: 100%;
   height: 29.6px;
   position: sticky;
   top: 48px;
@@ -330,6 +326,16 @@ i {
   flex-direction: column;
 }
 
+.item8-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.grd-item8 {
+  display: flex;
+  flex-direction: column;
+}
+
 .im-url1 {
   background-image: url(../Images/grd2_img1.jpg);
 }
@@ -363,6 +369,16 @@ i {
 }
 
 .grd2-img {
+  width: 100%;
+  padding-top: 50%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 8px;
+}
+
+.grd2-img8 {
   width: 100%;
   padding-top: 50%;
   display: block;
